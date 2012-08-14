@@ -1,6 +1,6 @@
 {
   "name": "named-regexp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Append named-capture feature to JavaScript RegExp",
   "main": "lib/named-regexp.js",
   "directories": {
