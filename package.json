@@ -9,7 +9,10 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cho45/named-regexp.js.git"
+  },
   "keywords": [
     "RegExp",
     "capture",
