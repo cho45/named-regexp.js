@@ -51,3 +51,11 @@ Returns last matched string of the name.
 ### Method re.replace(string, replace)
 
 Same as `String.prototype.replace` but when `replace` is function, this method passes an Array object like value returning from `exec()`.
+
+
+CONCEPT
+=======
+
+ * Use RegExp literal: Ignore confusing escape
+ * Leverage: Small code and big effect
+
