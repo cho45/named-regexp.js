@@ -18,3 +18,8 @@ var replaced = re.replace('aaa bbb ccc ddd eee fff ggg', function (matched) {
 
 assert.strictEqual(replaced, 'ccc fff ggg');
 
+var re2 = named(/(:<foo2>[a-z]+)|(:<bar2>[0-9]+)/g);
+var matched2 = re2.exec('abc');
+
+assert.equal(matched2.captures.foo2.length, 1);
+assert.equal(matched2.captures.bar2.length, 0);
